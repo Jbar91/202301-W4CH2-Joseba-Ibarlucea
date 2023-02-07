@@ -12,6 +12,7 @@
     "@types/react-dom": "^18.0.10",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router-dom": "^6.8.1",
     "react-scripts": "5.0.1",
     "sass": "^1.58.0",
     "typescript": "^4.9.5",
@@ -21,7 +22,7 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "test:prod": "npm test --watchAll --coverage --watchAll=false ",
+    "test:prod": "react-scripts test --watchAll --coverage --watchAll=false ",
     "eject": "react-scripts eject",
     "prepare": "husky install"
   },
