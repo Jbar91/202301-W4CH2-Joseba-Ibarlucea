@@ -1,0 +1,10 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  &__text,
+  &__password {
+    margin: 1rem;
+  }
+}
